@@ -251,6 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  hasPowerup: 0
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -763,7 +764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4888119960289159849, guid: f5c3f02e1f01c4c0b965ee3f53b02f15, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.35
+      value: 3.68
       objectReference: {fileID: 0}
     - target: {fileID: 4888119960289159849, guid: f5c3f02e1f01c4c0b965ee3f53b02f15, type: 3}
       propertyPath: m_LocalRotation.w
