@@ -32,7 +32,14 @@ public class PlayerController : MonoBehaviour
         {
             hasPowerup = true;
             Destroy(other.gameObject);
+            StartCoroutine(PowerupCountdownRoutine());
         }
+    }
+
+    IEnumerator PowerupCountdownRoutine()
+    {
+        yield return new WaitForSeconds(7);
+        hasPowerup = false;
     }
 
     private float powerupStrength = 15.0f;
